@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 100%;
+}
+
+/* ---------------------section 1---------------------- */
+
+#section1
+{
+    width: 100%;
+    height: 95vh;
+    background-image: url(./Images/background.jpg);
+    background-position: center;
+    border-bottom: 8px solid rgb(55, 51, 51);
+}
+#section1 #s1overlay
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.367), rgba(0, 0, 0, 0.914));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section1 #s1overlay #nav
+{
+    width: 100%;
+    height: 12vh;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+#section1 #s1overlay #nav img
+{
+    width: 160px;
+    height: 40px;
+}
+#section1 #s1overlay #nav #btns
+{
+    display: flex;
+    gap: 20px;
+}
+#section1 #s1overlay #nav #btns select
+{
+    width: 130px;
+    height: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.403);
+    background-color: transparent;
+    /* outline: none; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+#section1 #s1overlay #nav #btns select:active
+{
+    outline: 2px solid white;
+}
+#section1 #s1overlay #nav #btns select:hover
+{
+    outline: 2px solid white;
+}
+#section1 #s1overlay #nav #btns button
+{
+    width: 80px;
+    height: 33px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+#section1 #s1overlay #nav #btns button:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 4, 4);
+}
+#section1 #s1overlay #content
+{
+    width: 100%;
+    height: 50vh;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+#section1 #s1overlay #content h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+}
+#section1 #s1overlay #content h2
+{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#section1 #s1overlay #content h3
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+#section1 #s1overlay #content #inputs
+{
+    display: flex;
+    gap: 20px;
+}
+#section1 #s1overlay #content #inputs input
+{
+    width: 350px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.249);
+    background-color: rgba(0, 0, 0, 0.171);
+    outline: none;
+    padding-left: 15px;
+    color: white;
+}
+#section1 #s1overlay #content #inputs input:active
+{
+    outline: 2px solid white;
+}
+#section1 #s1overlay #content #inputs button
+{
+    height: 48px;
+    width: 190px;
+    background-color: rgba(255, 0, 0, 0.815);
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    border: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+#section1 #s1overlay #content #inputs button:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 4, 4);
+}
+
+/* -----------------------section 2---------------- */
+
+#section2
+{
+    width: 100%;
+    height: 78vh;
+    background-color: #010001;
+    border-bottom: 8px solid rgb(55, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#section2 #texts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#section2 #texts h1
+{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#section2 #texts h2
+{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 40vw;
+}
+#section2 video
+{
+    width: 600px;
+}
+
+/* -------------------section 3----------------- */
+
+#section3
+{
+    width: 100%;
+    height: 78vh;
+    background-color: #010001;
+    border-bottom: 8px solid rgb(55, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+}
+#section3 video
+{
+    width: 350px;
+}
+#section3 #texts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+#section3 #texts h1
+{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+    width: 40vw;
+}
+#section3 #texts h2
+{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 35vw;
+}
+
+/* -------------------section 4----------------- */
+
+#section4
+{
+    width: 100%;
+    height: 78vh;
+    background-color: #010001;
+    border-bottom: 8px solid rgb(55, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#section4 #texts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#section4 #texts h1
+{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#section4 #texts h2
+{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 38vw;
+}
+#section4 video
+{
+    width: 500px;
+}
+
+/* -------------------section 5----------------- */
+
+#section5
+{
+    width: 100%;
+    height: 78vh;
+    background-color: #010001;
+    border-bottom: 8px solid rgb(55, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#section5 #texts
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#section5 #texts h1
+{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#section5 #texts h2
+{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 40vw;
+}
+
+/* -------------------section 6------------------- */
+
+#section6
+{
+    width: 100%;
+    /* height: 130vh; */
+    padding: 10vh 0;
+    background-color: #010001;
+    border-bottom: 8px solid rgb(55, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#section6 h1
+{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+#section6 #questions
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#section6 #questions .ques
+{
+    width: 80vw;
+    height: 90px;
+    /* border: 1px solid black; */
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+#section6 #questions .ques:hover
+{
+    cursor: pointer;
+    background-color: rgb(96, 93, 93);
+}
+#section6 #questions .ques h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+}
+#section6 #questions .ques i
+{
+    font-size: 50px;
+    color: white;
+}
+#section6 #questions .ques .ri-close-fill
+{
+    display: none;
+}
+#section6 #questions .description
+{
+    width: 80vw;
+    /* height: 100px; */
+    background-color: rgb(44, 43, 43);
+    display: none;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+}
+#section6 #questions .description h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+}
+#section6 #last
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#section6 #last h3
+{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+#section6 #last #inputs
+{
+    display: flex;
+    gap: 20px;
+}
+#section6 #last #inputs input
+{
+    width: 350px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.249);
+    background-color: rgba(0, 0, 0, 0.171);
+    outline: none;
+    padding-left: 15px;
+}
+#section6 #last #inputs input:active
+{
+    outline: 2px solid white;
+}
+#section6 #last #inputs button
+{
+    height: 48px;
+    width: 190px;
+    background-color: rgba(255, 0, 0, 0.815);
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+    border: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+#section6 #last #inputs button:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 4, 4);
+}
+
+/* ------------------section 7--------------- */
+
+#section7
+{
+    width: 100%;
+    height: 66vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 9vw;
+}
+#section7 p
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#section7 #total
+{
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+}
+#section7 #total .box
+{
+    height: 100%;
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+#section7 #total .box a
+{
+    color: white;
+}
+
+
+#section7 select
+{
+    width: 130px;
+    height: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.403);
+    background-color: transparent;
+    /* outline: none; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+#section7 select:active
+{
+    outline: 2px solid white;
+}
+#section7 select:hover
+{
+    outline: 2px solid white;
+}
+
+
+
+
+
+
+
+@media (max-width:600px)
+{
+    #section1
+    {
+        height: 83vh;
+        background-size: cover;
+    }
+#section1 #s1overlay #nav
+{
+    /* background-color: yellow; */
+    padding: 0 5vw;
+}
+#section1 #s1overlay #nav img
+{
+    width: 100px;
+    height: 25px;
+}
+#section1 #s1overlay #nav #btns
+{
+    gap: 0px;
+    /* background-color: yellow; */
+    width: 40vw;
+    justify-content: space-between;
+}
+#section1 #s1overlay #nav #btns select
+{
+    width: 49px;
+}
+#section1 #s1overlay #content
+{
+    /* background-color: pink; */
+    height: 60vh;
+    gap: 0px;
+    justify-content: space-evenly;
+}
+#section1 #s1overlay #content h1
+{
+    font-size: 9vw;
+    width: 85%;
+    text-align: center;
+}
+#section1 #s1overlay #content h2
+{
+    font-size: 5vw;
+}
+#section1 #s1overlay #content h3
+{
+    font-size: 5.3vw;
+    width: 70%;
+    text-align: center;
+}
+#section1 #s1overlay #content #inputs
+{
+    height: 16.5vh;
+    flex-direction: column;
+    gap: 0px;
+    /* background-color: pink; */
+    justify-content: space-between;
+    align-items: center;
+}
+#section1 #s1overlay #content #inputs input
+{
+    width: 260px;
+}
+#section1 #s1overlay #content #inputs button
+{
+    width: 150px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+#section2
+{
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-evenly;
+}
+#section2 video
+{
+    width: 90%;
+}
+#section2 #texts
+{
+    height: 23vh;
+    align-items: center;
+    gap: 0;
+    justify-content: space-evenly;
+}
+#section2 #texts h1
+{
+    font-size: 9vw;
+}
+#section2 #texts h2
+{
+    font-size: 5vw;
+    width: 78%;
+    text-align: center;
+}
+
+
+
+
+#section3
+{
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+}
+#section3 video
+{
+    height: 45%;
+}
+#section3 #texts 
+{
+    width: 100%;
+    align-items: center;
+    gap: 0;
+    height: 27vh;
+    justify-content: space-between;
+}
+#section3 #texts h1
+{
+    font-size: 9vw;
+    width: 80%;
+    text-align: center;
+}
+#section3 #texts h2
+{
+    font-size: 5vw;
+    width: 78%;
+    text-align: center;
+}
+
+
+
+
+#section4
+{
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-evenly;
+}
+#section4 video
+{
+    width: 90%;
+}
+#section4 #texts
+{
+    align-items: center;
+    gap: 0;
+    height: 19vh;
+    justify-content: space-between;
+}
+#section4 #texts h1
+{
+    font-size: 9vw;
+}
+#section4 #texts h2
+{
+    font-size: 5vw;
+    width: 82%;
+    text-align: center;
+}
+
+
+
+
+
+#section5
+{
+    flex-direction: column-reverse;
+    gap: 0;
+    justify-content: space-evenly;
+}
+#section5 img
+{
+    width: 80%;
+}
+#section5 #texts 
+{
+    width: 100%;
+    align-items: center;
+    gap: 0;
+    justify-content: space-between;
+    height: 27vh;
+}
+#section5 #texts h1
+{
+    font-size: 9vw;
+    width: 80%;
+    text-align: center;
+}
+#section5 #texts h2
+{
+    font-size: 5vw;
+    width: 78%;
+    text-align: center;
+}
+
+
+#section6
+{
+    gap: 0;
+}
+#section6 h1
+{
+    font-size: 9vw;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#section6 #questions
+{
+    gap: 0;
+}
+#section6 #questions .ques
+{
+    width: 90vw;
+    height: 70px;
+    margin-bottom: 4px;
+}
+#section6 #questions .ques h2
+{
+    font-size: 20px;
+}
+#section6 #questions .ques i
+{
+    font-size: 30px;
+}
+#section6 #questions .description
+{
+    width: 90vw;
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+#section6 #questions .description h2
+{
+    font-size: 18px;
+}
+#section6 #last h3
+{
+    width: 80vw;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 5px;
+}
+#section6 #last #inputs
+{
+    /* background-color: pink; */
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    height: 17vh;
+    justify-content: space-between;
+}
+#section6 #last #inputs input
+{
+    width: 75vw;
+}
+#section6 #last #inputs button
+{
+    width: 150px;
+    font-size: 20px;
+}
+
+
+
+
+#section7
+{
+    width: 100%;
+    height: auto;
+    padding: 5vh 5vh;
+    gap: 0;
+}
+#section7 p
+{
+    margin-bottom: 30px;
+}
+#section7 #total
+{
+    width: 80vw;
+    height: 80vh;
+    flex-direction: column;
+}
+#section7 #total .box
+{
+    width: 100%;
+    height: calc(100%/3);
+    justify-content: space-around;
+    gap: 0;
+}
+#section7 select
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
